@@ -34,7 +34,7 @@ add_library (
 	"juce/include_juce_gui_extra.cpp"
 )
 
-file(GLOB UI "ui/Source/*.cpp")
+file(GLOB UI_SOURCES "ui/Source/*.cpp")
 add_library (UI STATIC ${UI_SOURCES})
 
 add_executable (

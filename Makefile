@@ -365,6 +365,141 @@ juce/include_juce_gui_extra.cpp.s:
 	$(MAKE) -f CMakeFiles/JUCE.dir/build.make CMakeFiles/JUCE.dir/juce/include_juce_gui_extra.cpp.s
 .PHONY : juce/include_juce_gui_extra.cpp.s
 
+ui/Source/Main.o: ui/Source/Main.cpp.o
+
+.PHONY : ui/Source/Main.o
+
+# target to build an object file
+ui/Source/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/Main.cpp.o
+.PHONY : ui/Source/Main.cpp.o
+
+ui/Source/Main.i: ui/Source/Main.cpp.i
+
+.PHONY : ui/Source/Main.i
+
+# target to preprocess a source file
+ui/Source/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/Main.cpp.i
+.PHONY : ui/Source/Main.cpp.i
+
+ui/Source/Main.s: ui/Source/Main.cpp.s
+
+.PHONY : ui/Source/Main.s
+
+# target to generate assembly for a file
+ui/Source/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/Main.cpp.s
+.PHONY : ui/Source/Main.cpp.s
+
+ui/Source/MainComponent.o: ui/Source/MainComponent.cpp.o
+
+.PHONY : ui/Source/MainComponent.o
+
+# target to build an object file
+ui/Source/MainComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/MainComponent.cpp.o
+.PHONY : ui/Source/MainComponent.cpp.o
+
+ui/Source/MainComponent.i: ui/Source/MainComponent.cpp.i
+
+.PHONY : ui/Source/MainComponent.i
+
+# target to preprocess a source file
+ui/Source/MainComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/MainComponent.cpp.i
+.PHONY : ui/Source/MainComponent.cpp.i
+
+ui/Source/MainComponent.s: ui/Source/MainComponent.cpp.s
+
+.PHONY : ui/Source/MainComponent.s
+
+# target to generate assembly for a file
+ui/Source/MainComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/MainComponent.cpp.s
+.PHONY : ui/Source/MainComponent.cpp.s
+
+ui/Source/MuxNode.o: ui/Source/MuxNode.cpp.o
+
+.PHONY : ui/Source/MuxNode.o
+
+# target to build an object file
+ui/Source/MuxNode.cpp.o:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/MuxNode.cpp.o
+.PHONY : ui/Source/MuxNode.cpp.o
+
+ui/Source/MuxNode.i: ui/Source/MuxNode.cpp.i
+
+.PHONY : ui/Source/MuxNode.i
+
+# target to preprocess a source file
+ui/Source/MuxNode.cpp.i:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/MuxNode.cpp.i
+.PHONY : ui/Source/MuxNode.cpp.i
+
+ui/Source/MuxNode.s: ui/Source/MuxNode.cpp.s
+
+.PHONY : ui/Source/MuxNode.s
+
+# target to generate assembly for a file
+ui/Source/MuxNode.cpp.s:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/MuxNode.cpp.s
+.PHONY : ui/Source/MuxNode.cpp.s
+
+ui/Source/Node.o: ui/Source/Node.cpp.o
+
+.PHONY : ui/Source/Node.o
+
+# target to build an object file
+ui/Source/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/Node.cpp.o
+.PHONY : ui/Source/Node.cpp.o
+
+ui/Source/Node.i: ui/Source/Node.cpp.i
+
+.PHONY : ui/Source/Node.i
+
+# target to preprocess a source file
+ui/Source/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/Node.cpp.i
+.PHONY : ui/Source/Node.cpp.i
+
+ui/Source/Node.s: ui/Source/Node.cpp.s
+
+.PHONY : ui/Source/Node.s
+
+# target to generate assembly for a file
+ui/Source/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/Node.cpp.s
+.PHONY : ui/Source/Node.cpp.s
+
+ui/Source/NodeConnectionDialog.o: ui/Source/NodeConnectionDialog.cpp.o
+
+.PHONY : ui/Source/NodeConnectionDialog.o
+
+# target to build an object file
+ui/Source/NodeConnectionDialog.cpp.o:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/NodeConnectionDialog.cpp.o
+.PHONY : ui/Source/NodeConnectionDialog.cpp.o
+
+ui/Source/NodeConnectionDialog.i: ui/Source/NodeConnectionDialog.cpp.i
+
+.PHONY : ui/Source/NodeConnectionDialog.i
+
+# target to preprocess a source file
+ui/Source/NodeConnectionDialog.cpp.i:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/NodeConnectionDialog.cpp.i
+.PHONY : ui/Source/NodeConnectionDialog.cpp.i
+
+ui/Source/NodeConnectionDialog.s: ui/Source/NodeConnectionDialog.cpp.s
+
+.PHONY : ui/Source/NodeConnectionDialog.s
+
+# target to generate assembly for a file
+ui/Source/NodeConnectionDialog.cpp.s:
+	$(MAKE) -f CMakeFiles/UI.dir/build.make CMakeFiles/UI.dir/ui/Source/NodeConnectionDialog.cpp.s
+.PHONY : ui/Source/NodeConnectionDialog.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -400,6 +535,21 @@ help:
 	@echo "... juce/include_juce_gui_extra.o"
 	@echo "... juce/include_juce_gui_extra.i"
 	@echo "... juce/include_juce_gui_extra.s"
+	@echo "... ui/Source/Main.o"
+	@echo "... ui/Source/Main.i"
+	@echo "... ui/Source/Main.s"
+	@echo "... ui/Source/MainComponent.o"
+	@echo "... ui/Source/MainComponent.i"
+	@echo "... ui/Source/MainComponent.s"
+	@echo "... ui/Source/MuxNode.o"
+	@echo "... ui/Source/MuxNode.i"
+	@echo "... ui/Source/MuxNode.s"
+	@echo "... ui/Source/Node.o"
+	@echo "... ui/Source/Node.i"
+	@echo "... ui/Source/Node.s"
+	@echo "... ui/Source/NodeConnectionDialog.o"
+	@echo "... ui/Source/NodeConnectionDialog.i"
+	@echo "... ui/Source/NodeConnectionDialog.s"
 .PHONY : help
 
 
